@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: toolghost
+Version: 1.0.0
+Summary: LLM Agent function-calling schema fuzzer and tool-use parameter smuggling detector.
+Author: Professor Bug & Blackbox R&D
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.31.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: rich>=13.0.0
+
+# ToolGhost ????
+LLM Agent Function-Calling Schema & Tool-Use Fuzzer

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toolghost"
+version = "1.0.0"
+description = "LLM Agent function-calling schema fuzzer and tool-use parameter smuggling detector."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Professor Bug & Blackbox R&D" }]
+dependencies = ["requests>=2.31.0", "pydantic>=2.0.0", "rich>=13.0.0"]
+
+[project.scripts]
+toolghost = "toolghost.cli:main"
